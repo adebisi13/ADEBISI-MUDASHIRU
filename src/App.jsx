@@ -97,8 +97,8 @@ function App() {
         <img src="/ptflo.png" alt="Project 1"/>
         <div className="project-info">
           <h2>Portfolio Website</h2>
-          <p>A personal portfolio website built with HTML, CSS, and JavaScript.</p>
-          <a href="https://adebisi2025.netlify.app/" target="_blank" className="btn">View Project</a>
+          <p>A personal portfolio website built with React.js .</p>
+          <a href="https://adebisimudashi.netlify.app/" target="_blank" className="btn">View Project</a>
         </div>
       </div>
 
