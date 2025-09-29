@@ -49,11 +49,7 @@ function App() {
           with clean code. When I’m not coding, you’ll probably find me exploring design trends,
           reading tech blogs, or experimenting with new projects.
         </p>
-        <p>I also take part in <strong>vibe coding</strong>, building modern web apps by
-  collaborating with AI tools like <strong>Cursor</strong>, <strong>ChatGPT</strong>,
-  and <strong>Claude</strong>.  
-  By guiding these tools as creative partners, I prototype and publish
-  high-quality products faster while keeping the human touch in design and code.</p>
+       
     <a href="projects.html" className="btn">See My Work</a></div>
   </section>
    <section className="about">
@@ -76,6 +72,10 @@ function App() {
         and learning how to make the web faster and more user-friendly. I’m excited about
         solving problems and bringing creativity into tech.
       </p>
+       <p>I also take part in vibe coding, building modern web apps by
+        collaborating with AI tools like Cursor, ChatGPT,and Claude.  
+       By guiding these tools as creative partners, I prototype and publish
+        high-quality products faster while keeping the human touch in design and code.</p>
       <a href="projects.html" className="btn">See My Projects</a>
     </div>
   </div>
