@@ -102,7 +102,7 @@ function App() {
   </div>
 </div>
   <div className="project-card reveal">
-  <img src="/night.ong"alt="Midnight Market e-commerce app" className="project-image" />
+  <img src="/night.png"alt="Midnight Market e-commerce app" className="project-image" />
   <div className="project-info">
     <h2>Midnight Market</h2>
     <p>
