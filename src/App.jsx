@@ -87,6 +87,7 @@ function App() {
   <section className="projects">
     <h1>My Projects</h1>
     <p className="projects-subtitle">Here are some of my works showcasing creativity & functionality.</p>
+    <div className="projects-grid">
 
   <div className="project-card reveal">
   <img src="/crypto.png" alt="CryptoPulse crypto dashboard" className="project-image"/>
@@ -114,7 +115,6 @@ function App() {
 </div>
 
 
-  <div className="projects-grid">
       <div className="project-card reveal">
         <img src="/Screenshot 2025-09-24 224927.png" alt="Project 1"/>
         <div className="project-info">
