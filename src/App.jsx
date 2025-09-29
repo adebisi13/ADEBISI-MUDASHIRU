@@ -49,6 +49,11 @@ function App() {
           with clean code. When I’m not coding, you’ll probably find me exploring design trends,
           reading tech blogs, or experimenting with new projects.
         </p>
+        <p>I also take part in <strong>vibe coding</strong>, building modern web apps by
+  collaborating with AI tools like <strong>Cursor</strong>, <strong>ChatGPT</strong>,
+  and <strong>Claude</strong>.  
+  By guiding these tools as creative partners, I prototype and publish
+  high-quality products faster while keeping the human touch in design and code.</p>
     <a href="projects.html" className="btn">See My Work</a></div>
   </section>
    <section className="about">
@@ -83,13 +88,39 @@ function App() {
     <h1>My Projects</h1>
     <p className="projects-subtitle">Here are some of my works showcasing creativity & functionality.</p>
 
-    <div className="projects-grid">
+  <div className="project-card reveal">
+  <img src="/cryptopulse-screenshot.png" alt="Screenshot of CryptoPulse crypto dashboard" className="project-image"/>
+  <div className="project-info">
+    <h2>CryptoPulse</h2>
+    <p>
+      A real-time cryptocurrency dashboard featuring trending coins, live price
+      data, search, and social-style profiles. Built with React and Tailwind
+      using AI-assisted vibe coding techniques.
+    </p>
+    <a href="https://cryptoplse.netlify.app/"target="_blank" className="btn"> View Project </a>
+  </div>
+</div>
+  <div className="project-card reveal">
+  <img src="/midnight-market-screenshot.png"alt="Screenshot of Midnight Market e-commerce app" className="project-image" />
+  <div className="project-info">
+    <h2>Midnight Market</h2>
+    <p>
+      A sleek, midnight-blue e-commerce platform with real-time buyer/seller
+      chat, product search and filtering, and responsive design. Built through
+      an AI-first “vibe coding” workflow using Cursor, ChatGPT, and Claude.
+    </p>
+     <a href="https://midnightmarket.netlify.app/"target="_blank" className="btn"> View Project</a>
+  </div>
+</div>
+
+
+  <div className="projects-grid">
       <div className="project-card reveal">
         <img src="/Screenshot 2025-09-24 224927.png" alt="Project 1"/>
         <div className="project-info">
           <h2>ML Autos</h2>
           <p>An e-commerce website for both brand new and fairly used cars built with HTML, CSS, and JavaScript.</p>
-          <a href="https://mlautos.netlify.app/" target="_blank" className="btn">View Project</a>
+          <a href="  https://mlautos.netlify.app/" target="_blank" className="btn">View Project</a>
         </div>
       </div>
 
