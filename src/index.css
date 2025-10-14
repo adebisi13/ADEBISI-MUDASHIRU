@@ -22,8 +22,10 @@ body {
   padding:1rem 3rem;
   background: #000;
   border-bottom: 1px solid rgba(255, 215, 0, 0.3);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -115,6 +117,7 @@ body {
   align-items: flex-start; 
   text-align: left; 
   padding: 2rem;
+  max-width: 40rem;
 }
 
  .hero img {
@@ -144,7 +147,7 @@ body {
 }
 
 /* Button */
-.btn {
+.btn { 
   display: inline-block;
   padding: 0.8rem 2rem;
   background: gold;

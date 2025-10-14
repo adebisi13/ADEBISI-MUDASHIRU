@@ -25,16 +25,16 @@ function App() {
 
 
       <ul className={`nav-links ${navOpen ? 'active' : ''}`}>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       
     </nav>
   </header>
 
-  <section className="hero">
+  <section className="hero" id="home">
     <div className="img"><img src="/PFPP.png" alt=""/></div>
     <div className="words">
     <h1>Hello, I'm <span className="highlight">Adebisi</span></h1>
@@ -47,12 +47,11 @@ function App() {
         <p>
           I’m constantly learning new tools and improving my craft, aiming to combine creativity
           with clean code. When I’m not coding, you’ll probably find me exploring design trends,
-          reading tech blogs, or experimenting with new projects.
-        </p>
-       
-    <a href="projects.html" className="btn">See My Work</a></div>
+          reading tech blogs, or experimenting with new projects. </p>
+        <a href="projects.html" className="btn">See My Work</a>
+    </div>
   </section>
-   <section className="about">
+   <section className="about" id="about">
   <div className="about-container">
     <div className="about-img reveal">
       <img src="/IMG_9196.jpg" alt="Profile Picture" />
@@ -84,7 +83,7 @@ function App() {
   <Skills />
 
 
-  <section className="projects">
+  <section className="projects" id="projects">
     <h1>My Projects</h1>
     <p className="projects-subtitle">Here are some of my works showcasing creativity & functionality.</p>
     <div className="projects-grid">
@@ -173,7 +172,7 @@ function App() {
     </div>
   </section>   
 
-  <section className="contact">
+  <section className="contact" id="contact">
     <h1>Contact Me</h1>
     <p className="contact-subtitle">Got a project idea or just want to say hi? Fill out the form below 👇</p>
      <div className="contact-info">
