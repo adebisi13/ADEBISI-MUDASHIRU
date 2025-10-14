@@ -110,10 +110,11 @@ body {
 }
 
 .words {
-  align-items: left;
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
+  align-items: flex-start; /* aligns to the left horizontally */
+  text-align: left; /* aligns text itself */
+  padding: 2rem;
 }
 
  .hero img {
