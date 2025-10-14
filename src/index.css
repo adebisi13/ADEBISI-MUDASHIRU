@@ -110,6 +110,7 @@ body {
 }
 
 .words {
+  align-items: left;
   display: flex;
   flex-direction: column;
   max-width: 40rem;
